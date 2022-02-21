@@ -43,7 +43,11 @@ export const Cards = () => {
               imageUrl: `${`https://image.tmdb.org/t/p/w1280` + movie.backdrop_path}`,
               imageWidth: 400,
               imageHeight: 200,
-              imageAlt: `${movie.title}`
+              imageAlt: `${movie.title}`,
+              background:'#0f0e17',
+              backdrop: 'swal2-backdrop-hide',
+              confirmButtonColor:'#FED941',
+              confirmButtonText:'Aceptar'
             })
           )}>
             <Card.Img
@@ -55,7 +59,7 @@ export const Cards = () => {
               <Card.Title className="titulo">{movie.title}</Card.Title>
               <div className="containerAverage">
                 <span>
-                    <img src="https://res.cloudinary.com/do2ijjhfn/image/upload/v1644877322/Vector_w3jao3.svg" alt="puntuacion"></img>
+                    {/* <img src="https://res.cloudinary.com/do2ijjhfn/image/upload/v1644877322/Vector_w3jao3.svg" alt="puntuacion"></img> */}
                     {movie.vote_average}</span>
               </div>
 

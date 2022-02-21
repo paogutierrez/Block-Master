@@ -42,6 +42,7 @@ export const Favoritos = () => {
   useEffect(() => {
       dispatch(listFavoritos())
       console.log()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (
