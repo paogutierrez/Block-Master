@@ -1,0 +1,32 @@
+.logo2{
+    Width :126,81px;
+    Height: 84px;
+    margin-bottom: 30px;
+}
+
+.formulario{
+    padding-top:10px;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+.container1{
+    text-align:center;
+    padding:20px;
+}
+
+.botonGoogle{
+    background-color:#0F0E17;
+    text-align: center;
+}
+
+.botonGoogle:hover{
+    background-color:#0F0E17;
+    
+}
+.botonGoogle:focus{
+    background-color:#0F0E17;
+    
+}
+    
+

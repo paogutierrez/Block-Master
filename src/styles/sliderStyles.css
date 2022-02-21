@@ -1,0 +1,34 @@
+.verA{
+    background-color: #FED941 !important;
+    color:black !important;
+    border-radius: 5px;
+    border:1px black solid;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin:15px;
+    
+}
+.verD{
+    background-color: black !important;
+    color:#FED941 !important;
+    border-radius: 5px;
+    border:1px #FED941 solid;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.sinFondo{
+    background-color: transparent;
+    position:relative;
+    bottom: 100px;
+    padding-right:75%;
+   
+  
+   
+}
+
+.sinFondo2{
+    background-color: transparent;
+}
+.altura{
+    height:400px;
+}

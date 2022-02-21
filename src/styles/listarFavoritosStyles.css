@@ -1,0 +1,25 @@
+.tabla{
+    background-color: #0F0E17; 
+    width:50%;
+    margin-left: 28%;
+    
+}
+
+h1{
+    color:#FED941;
+    text-align: center;
+    padding:40px;
+    font-size:30px;
+}
+.eliminarButton{
+    background-color:#FED941;
+    border-radius: 5px;
+    margin-left: 20%;
+} 
+.eliminarButton:hover{
+    background-color:rgb(40, 40, 168);
+    border-radius: 5px;
+    margin-left: 30%;
+    color:white;
+}
+

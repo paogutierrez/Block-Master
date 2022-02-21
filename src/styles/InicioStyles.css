@@ -1,0 +1,71 @@
+.logo{
+Width :106,81px;
+Height: 64px;
+}
+.eleccion{
+    color:white !important;
+    font-size:16px !important;
+    text-align: center;
+    line-height:19px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+.eleccion:focus{
+    color:#FED941 !important;
+    text-decoration: underline !important;
+}
+.busqueda{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 11px 12px;
+position: static;
+width: 206.6px;
+height: 44px;
+left: 0px;
+top: 0px;
+background: #FFFFFE;
+border: 1px solid #FED941;
+box-sizing: border-box;
+border-radius: 8px 0px 0px 8px;
+}
+.lupa{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+position: static;
+width: 72px;
+height: 44px;
+left: 206.6px;
+top: 0px;
+background: #FED941;
+border-radius: 0px 4px 4px 0px;
+color:black !important;
+
+}
+.scroll{
+    color:rgb(92, 83, 83) !important;
+}
+.login{
+margin-left: 10px;
+padding-left:10px;
+padding-right:10px;
+}
+.logout{
+    border: 1px #FED941 solid;
+    border-radius: 5px;
+    padding-top:5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    color:#FED941;
+}
+.logout:hover{
+    background-color:blue;
+    color:#FED941;
+    font-weight: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid blue;
+}
