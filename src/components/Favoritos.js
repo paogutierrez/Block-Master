@@ -49,6 +49,7 @@ export const Favoritos = () => {
     <div >
       
       <Form className="contenedorFavoritos" onSubmit={handleRegistro}>
+        <h1>Registra tus peliculas Favoritas</h1>
       <Image
         className="logo2"
         variant="top"
